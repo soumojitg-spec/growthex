@@ -33,7 +33,7 @@ const Header = () => {
                         {menuItems.map((item) => (
                             <Link
                                 key={item}
-                                to={`/#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                to={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
                                 className="text-gray-700 hover:text-black font-medium transition-colors duration-200"
                             >
                                 {item}
@@ -67,7 +67,7 @@ const Header = () => {
                             {menuItems.map((item) => (
                                 <Link
                                     key={item}
-                                    to={`/#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                    to={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
                                     className="text-gray-700 hover:text-black font-medium transition-colors duration-200"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >

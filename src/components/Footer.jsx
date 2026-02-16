@@ -38,25 +38,25 @@ const Footer = () => {
                             <h4 className="font-bold text-white mb-6 text-lg">Product</h4>
                             <ul className="space-y-4">
                                 <li>
-                                    <Link to="/#use-cases" className="hover:text-white transition-colors block">Use Cases</Link>
+                                    <Link to="/use-cases" className="hover:text-white transition-colors block">Use Cases</Link>
                                 </li>
                                 <li>
-                                    <Link to="/#how-it-works" className="hover:text-white transition-colors block">How It Works</Link>
+                                    <Link to="/how-it-works" className="hover:text-white transition-colors block">How It Works</Link>
                                 </li>
                                 <li>
-                                    <Link to="/#features" className="hover:text-white transition-colors block">Features</Link>
+                                    <Link to="/features" className="hover:text-white transition-colors block">Features</Link>
                                 </li>
                                 <li>
-                                    <Link to="/#solutions" className="hover:text-white transition-colors block">Solutions</Link>
+                                    <Link to="/solutions" className="hover:text-white transition-colors block">Solutions</Link>
                                 </li>
                                 <li>
-                                    <Link to="/#pricing" className="hover:text-white transition-colors block">Pricing</Link>
+                                    <Link to="/pricing" className="hover:text-white transition-colors block">Pricing</Link>
                                 </li>
                                 <li>
-                                    <Link to="/#case-studies" className="hover:text-white transition-colors block">Case Studies</Link>
+                                    <Link to="/case-studies" className="hover:text-white transition-colors block">Case Studies</Link>
                                 </li>
                                 <li>
-                                    <Link to="/#integrations" className="hover:text-white transition-colors block">Integrations</Link>
+                                    <Link to="/integrations" className="hover:text-white transition-colors block">Integrations</Link>
                                 </li>
                             </ul>
                         </div>
